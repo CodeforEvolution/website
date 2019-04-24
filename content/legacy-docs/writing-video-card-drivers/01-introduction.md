@@ -108,7 +108,7 @@ BeOS R5 supports the following display features:
 *   Hardware based 2d acceleration
 *   Hardware overlay (motion video)
 
-Hardware 3D acceleration is not supported in BeOS R5, only software emulation of [OpenGL](https://www.opengl.org/) is. (There are two commonly used 3D acceleration standards in the world: openGL is a standard that is used on different "platforms", DirectX is a closed standard owned by Microsoft and used for 3D acceleration, etc. DirectX is only used in windows at this time.) Hardware acceleration with OpenGL was planned for BeOS R5 Pro/PE but was delayed and eventually abandoned.
+Hardware 3D acceleration is not supported in BeOS R5, only software emulation of [OpenGL](https://www.opengl.org/) is. (There are two commonly used 3D acceleration standards in the world: OpenGL is a standard that is used on different "platforms", DirectX is a closed standard owned by Microsoft and used for 3D acceleration, etc. DirectX is only used in windows at this time.) Hardware acceleration with OpenGL was planned for BeOS R5 Pro/PE but was delayed and eventually abandoned.
 
 As a guideline for testing and determining how graphics card drivers work, the [BeOS R4 Graphics Driver Kit](https://github.com/HaikuArchives/BeSampleCode/tree/haiku/drivers/graphics) is used as a reference. It's the youngest known version of a description of graphics card drivers by Be Inc.
 
